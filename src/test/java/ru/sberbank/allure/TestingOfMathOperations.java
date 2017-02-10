@@ -50,7 +50,7 @@ public class TestingOfMathOperations {
      */
     @Parameterized.Parameters
     public static List<String[]> getOperationColl() {
-        List<String[]> collection = FileReaders.readFile("src\\test\\java\\ru\\sberbank\\allure\\file");
+        List<String[]> collection = FileReaders.readFile("src\\main\\resources\\file");
         return collection;
     }
 
