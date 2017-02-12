@@ -48,6 +48,7 @@ public class TestingOfMathOperations {
     /**
      * @return collection
      */
+
     @Parameterized.Parameters
     public static List<String[]> getOperationColl() {
         List<String[]> collection = FileReaders.readFile("src\\main\\resources\\file");
